@@ -6,7 +6,7 @@ for i in range(3):
     for k in range(3):
         A[i][k] = float(input())
 #빈 배열 A에 입력받은 숫자를 float으로 변환 및 대입 
-#다음부터는 둘리틀 방식 사용 (예전에는 가우스)
+#다음부터는 두리틀 방식 사용 (예전에는 가우스)
 L=[[1, 0, 0],
    [None, 1, 0 ],
    [None, None, 1]]
