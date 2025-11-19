@@ -7,8 +7,6 @@ for i in range(3):
 
 for i in range(3):
     
-    
-    
     if(A[i][i]==0):
         
         for j in range(i+1,3):
@@ -16,9 +14,8 @@ for i in range(3):
                 for k in range(3):
                     temp = A[i][k]
                     A[i][k] = A[j][k]
-                    A[j][k] = temp
-                
-                break
+                    A[j][k] = temp    
+            break
     
     #이 부분은 처음에 행교환이 필요한지 보는 곳. 
     #먼저 주대각성분이 0인지 확인, 만약 0이라면-> 행교환이 필요
